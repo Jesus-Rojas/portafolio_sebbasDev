@@ -1,9 +1,16 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import HeaderVue from "@/components/Header.vue";
+import IndexVue from "@/components/Index.vue";
+import Experience from "@/components/Experience.vue";
+import ProjectsVue from "@/components/Projects.vue";
+import Footer from "@/components/Footer.vue";
+
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <HeaderVue />
+  <IndexVue />
+  <Experience/>
+  <ProjectsVue/>
+  <Footer />
 </template>
