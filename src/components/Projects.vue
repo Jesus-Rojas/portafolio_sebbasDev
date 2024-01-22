@@ -14,14 +14,19 @@
           ></path>
         </svg>
         <div class="card__content">
-          <p class="card__title">Project Name</p>
+          <p class="card__title">Rivera Huila Web</p>
           <p class="card__description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
             minim veniam, quis nostrud exercitation ullamco.
           </p>
-          <button class="card__button">Live Demo</button>
-          <button class="card__button secondary">Source Code</button>
+          <div class=" bg-white border-slate-950 rounded-full flex items-center text-slate-500  ">
+
+            <icon-laravel class="w-4 h-9 "/>
+            Laravel
+          </div>
+
+
         </div>
       </div>
       <!-- 2 -->
@@ -38,8 +43,7 @@
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
             minim veniam, quis nostrud exercitation ullamco.
           </p>
-          <button class="card__button">Live Demo</button>
-          <button class="card__button secondary">Source Code</button>
+          <icon-laravel/>
         </div>
       </div>
       <!-- 3 -->
@@ -83,9 +87,13 @@
 
 <script>
 import Code from '@/components/icons/Code.vue';
+import IconLaravel from './iconsCardsProjects/IconLaravel.vue';
+import SocialPillVue from './icons/SocialPill.vue';
 export default {
   components: {
     Code,
+SocialPillVue,
+    IconLaravel,
   }
 };
 </script>
@@ -147,9 +155,6 @@ export default {
   font-weight: 700;
 }
 
-.card:hover svg {
-  scale: 0;
-}
 
 .card__description {
   margin: 10px 0 10px;

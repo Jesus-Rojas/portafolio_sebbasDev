@@ -5,7 +5,7 @@
         <img class="rounded-full size-12 mb-4" src="/public/img/sebas.jpg" alt="SebbasDEV logo" />
       </div>
       <h1 class="text-white text-5xl font-bold flex justify-center flex-row ">Hey, soy Sebastian</h1>
-      <div class="flex justify-center items-center">
+      <div class="flex justify-center items-center py-6">
         <BadgeVue>Disponible para trabajar</BadgeVue>
       </div>
       <h2 class="text-white  ">
