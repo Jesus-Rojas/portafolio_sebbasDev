@@ -1,7 +1,7 @@
 
 <template>
   <header
-    class="font-sans flex items-center mx-auto py-10 sticky top-0 w-full md:w-[1120px] z-10"
+    class="font-sans flex items-center mx-auto py-10 sticky top-0 w-full md:w-[1120px] z-10  text-black/80 dark:text-white/80"
   >
     <nav
       class="border border-white w-full rounded-full px-4 py-2 flex flex-row justify-center md:justify-between backdrop-blur-2xl shadow-md"

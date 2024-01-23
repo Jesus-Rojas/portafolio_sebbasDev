@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col md:flex-row gap-8 justify-center items-center lg:w-[740px] mx-auto py-2 ">
+  <section class="flex flex-col md:flex-row gap-8 justify-center items-center lg:w-[740px] mx-auto py-2  text-black/80 dark:text-white/80 ">
     <div class="[&>p]:mb-4 [&>p>strong]:text-yellow-400 [&>p>strong]:font-semibold text-pretty order-2 md:order-1">
       <h2 class="text-4xl font-semibold mb-6 flex gap-x-3 items-center text-black/80 dark:text-white/80 px-28">
 
@@ -29,7 +29,7 @@
       </p>
     </div>
 
-    <img src="/public/img/sebas.jpg" class="rounded-full size-64 order-1 md:order-2" />
+    <img src="/img/sebas.jpg" class="rounded-full size-64 order-1 md:order-2" />
 
   </section>
 </template>

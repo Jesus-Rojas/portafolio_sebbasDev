@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="w-full lg:w-[740px] mx-auto py-44">
+    <section class="w-full lg:w-[740px] mx-auto py-32">
       <div class="px-28">
         <img class="rounded-full size-12 mb-4" src="/public/img/sebas.jpg" alt="SebbasDEV logo" />
       </div>
