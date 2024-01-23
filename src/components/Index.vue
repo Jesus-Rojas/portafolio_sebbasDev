@@ -16,7 +16,7 @@
         técnicas.</h2>
 
       <nav class="flex gap-4 mt-8 flex-wrap">
-        <SocialPillVue>
+        <SocialPillVue href="https://github.com/sebbas-0626">
           <GitHub class="size-4 md:size-6"></GitHub>
           GitHub
         </SocialPillVue>

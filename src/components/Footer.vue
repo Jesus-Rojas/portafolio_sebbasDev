@@ -8,8 +8,8 @@
   >
     <span
       class="text-sm sm:text-center text-yellow-800/90 dark:text-yellow-200/90"
-      >© 2024
-      <a href="https://midu.dev/" class="hover:underline">SebbasDEV</a>. Casi
+    >© {{ year }}
+      <a href="https://sebbasdev0626.netlify.app/" class="hover:underline">SebbasDEV</a>. Casi
       todos los derechos reservados
     </span>
     <ul
@@ -24,10 +24,9 @@
 </footer>
 </template>
 
-<script>
-export default {
+<script setup>
 
-}
+const year = '2024'
 </script>
 
 <style>
