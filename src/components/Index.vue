@@ -1,21 +1,21 @@
 <template>
   <main>
-    <section class="w-full lg:w-[740px] mx-auto py-32">
+    <section class="w-full lg:w-[740px] mx-auto py-12 md:py-20 lg:py-32 text-center">
       <div class="px-28">
-        <img class="rounded-full size-12 mb-4" src="/public/img/sebas.jpg" alt="SebbasDEV logo" />
+        <img class="rounded-full size-20 mb-4" src="/public/img/sebas.jpg" alt="SebbasDEV logo" />
       </div>
-      <h1 class="text-white text-5xl font-bold flex justify-center flex-row ">Hey, soy Sebastian</h1>
-      <div class="flex justify-center items-center py-6">
+      <h1 class="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex justify-center flex-row mb-4  text-black/80 dark:text-white/80 ">Hey, soy Sebastian</h1>
+      <div class="flex justify-center items-center py-6 ">
         <BadgeVue>Disponible para trabajar</BadgeVue>
       </div>
-      <h2 class="text-white  ">
+      <h2 class="text-white text-sm md:text-base lg:text-lg  ">
         Desarrollador Web con experiencia en proyectos
         colaborativos.De Rivera, colombia. Aunque mi trayectoria no incluye experiencia formal en empresas, he
         contribuido significativamente como desarrollador Web en diversos proyectos, tanto en el frontend como en el backend.
         Puedes explorar mis contribuciones en los repositorios de GitHub, donde plasmo mi dedicación y habilidades
         técnicas.</h2>
 
-      <nav class="flex gap-4 mt-8 flex-wrap">
+      <nav class="flex gap-4 mt-8 flex-wrap justify-center">
         <SocialPillVue href="https://github.com/sebbas-0626">
           <GitHub class="size-4 md:size-6"></GitHub>
           GitHub
