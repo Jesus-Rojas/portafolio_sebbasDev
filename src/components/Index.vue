@@ -50,7 +50,7 @@
           LinkedIn
         </SocialPillVue>
 
-        <SocialPillVue href="https://www.google.com/intl/es-419/gmail/about/">
+        <SocialPillVue href="mailto:sebastiantovarchavez304@gmail.com">
           <MailVue class="size-4 md:size-6"></MailVue>
           sebastiantovarchavez304@gmail.com
         </SocialPillVue>
