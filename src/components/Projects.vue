@@ -6,7 +6,7 @@
     </h2>
 
     <div class="flex flex-wrap justify-center gap-8">
-      <div class="card"><img src="/rivera-huilaWeb.png" alt="" class="h-48">
+      <div class="card"><img src="/src/assets/img/rivera-huilaWeb.png" alt="" class="h-48">
         <div class="card__content">
           <p class="card__title">Rivera Huila Web</p>
           <ul class="flex gap-x-2 flex-row mb-2">
