@@ -1,5 +1,5 @@
 <template>
-  <section id="experiencia" class="w-full lg:w-[740px] mx-auto py-30">
+  <section id="experiencia" class="w-full lg:w-[740px] mx-auto py-32">
 
     <h2 class="text-4xl sm:text-2xl md:text-4xl font-semibold mb-6 flex gap-x-3 items-center text-black/80 dark:text-white/80 px-4 md:px-0 transition hover:scale-110">
   <Briefcase class="size-16" />

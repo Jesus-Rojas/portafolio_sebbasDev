@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="w-full lg:w-[740px] mx-auto py-12 md:py-20 lg:py-32 text-center">
+    <section class="w-full lg:w-[740px] mx-auto py-12 md:py-20 lg:py-20 text-center">
       <div class="px-28">
         <img class="rounded-full size-20 mb-4" src="/src/assets/img/sebas.jpg" alt="SebbasDEV logo" />
       </div>
@@ -31,12 +31,12 @@
           GitHub
         </SocialPillVue>
 
-        <SocialPillVue>
+        <SocialPillVue href="https://www.linkedin.com/in/sebbasdev/">
           <LinkedInVue class="size-4 md:size-6"></LinkedInVue>
           LinkedIn
         </SocialPillVue>
 
-        <SocialPillVue>
+        <SocialPillVue href="https://www.google.com/intl/es-419/gmail/about/">
           <MailVue class="size-4 md:size-6"></MailVue>
           sebastiantovarchavez304@gmail.com
         </SocialPillVue>

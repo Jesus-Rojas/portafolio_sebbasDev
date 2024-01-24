@@ -1,5 +1,5 @@
 <template>
-  <section id="projects" class="w-full lg:w-[740px] mx-auto py-36">
+  <section id="projects" class="w-full lg:w-[740px] mx-auto py-26">
     <h2
       class="text-4xl sm:text-2xl md:text-4xl font-semibold mb-6 flex gap-x-3 items-center text-black/80 dark:text-white/80 px-4 md:px-0 transition hover:scale-110">
       <Code class="size-16" />
@@ -136,7 +136,6 @@ export default {
 
 <style>
 .card {
-  font-family: cursive;
   position: relative;
   width: 350px;
   aspect-ratio: 16/9;

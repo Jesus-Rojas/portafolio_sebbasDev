@@ -2,13 +2,16 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:wght@300;400;500;600;700&display=swap');
+
 
 html {
     background-color: #eeeeee;
+    font-family: 'poppins', sans-serif;
+  scroll-behavior: smooth;
+
 }
 html.dark{
     background-color: #0f172a;
 }
-html {
-  scroll-behavior: smooth;
-}
+

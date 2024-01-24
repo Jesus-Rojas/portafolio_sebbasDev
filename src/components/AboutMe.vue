@@ -1,14 +1,10 @@
 <template>
-  <section id="about-me" class="flex flex-col md:flex-row gap-8 justify-center items-center lg:w-[740px] mx-auto py-2 text-center text-black/80 dark:text-white/80 ">
+  <section id="about-me" class="flex flex-col md:flex-row gap-8 justify-center items-center lg:w-[740px] mx-auto py-36 text-center text-black/80 dark:text-white/80 ">
     <div class="[&>p]:mb-4 [&>p>span]:text-blue-600  [&>p>strong]:font-semibold text-pretty order-2 md:order-1 md:text-left ">
       <h2 class="text-xl sm:text-2xl md:text-4xl font-semibold mb-6 flex items-center text-center text-black/80 dark:text-white/80 px-4 md:px-0 transition hover:scale-110 flex-col sm:flex-row">
   <profile-check class="size-16 mb-2 sm:mr-2" />
   <span>Sobre Mi</span>
 </h2>
-
-
-
-
       <p>
 
         Me llamo Sebastián Tovar Chávez, soy estudiante de ingeniería en sistemas apasionado por la programación, desde los
