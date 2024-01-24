@@ -11,34 +11,16 @@
           <p class="card__title">Rivera Huila Web</p>
           <ul class="flex gap-x-2 flex-row mb-2">
             <li>
-    <span class="flex gap-x-2 rounded-full text-xs bg-white text-dark py-1 px-2 items-center border-2 border-solid border-dark">
-      <IconLaravel/>
-      Laravel
+    <span class="flex gap-x-2 rounded-full text-xs bg-slate-700 text-white py-1 px-2 items-center border-2 border-solid border-dark">
+      <IconAstroVue/>
+      Astro
     </span>
   </li>
-  <li>
-    <span class="flex gap-x-2 rounded-full text-xs bg-white text-dark py-1 px-2 items-center border-2 border-solid border-dark">
-      <svg viewBox="0 0 256 221" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
-        <path d="M204.8 0H256L128 220.8 0 0h97.92L128 51.2 157.44 0h47.36Z" fill="#41B883"/>
-        <path d="m0 0 128 220.8L256 0h-51.2L128 132.48 50.56 0H0Z" fill="#41B883"/>
-        <path d="M50.56 0 128 133.12 204.8 0h-47.36L128 51.2 97.92 0H50.56Z" fill="#35495E"/>
-      </svg>
-      vue js
-    </span>
-  </li>
+
 </ul>
-          <p class="card__description">Sistema de entretenimiento individual para flota de buses</p>
-            <ul>
-              <!-- <li>
-    <span class="flex gap-x-2 rounded-full text-xs bg-white text-dark py-1 px-2 items- border-2 border-solid border-dark">
-
-      Ir al sitio web
-    </span>
-  </li> -->
-            </ul>
-
+          <p class="card__description"> <span class="text-slate-800">Pagina web rivera turismo </span></p>
           <a
-            href="https://turismo-rivera.vercel.app/" target="_blank" class="bg-white/5
+            href="https://turismo-rivera.vercel.app/" target="_blank" class="bg-slate-700 text-white
       border border-gray-300
       rounded-full
       inline-flex justify-center items-center gap-x-2
@@ -163,17 +145,20 @@
 import Code from '@/components/icons/Code.vue';
 import IconLaravel from './iconsCardsProjects/IconLaravel.vue';
 import SocialPillVue from './icons/SocialPill.vue';
+import IconAstroVue from './iconsCardsProjects/IconAstro.vue';
 export default {
   components: {
     Code,
     SocialPillVue,
     IconLaravel,
+    IconAstroVue
   }
 };
 </script>
 
 <style>
 .card {
+  font-family: cursive;
   position: relative;
   width: 350px;
   aspect-ratio: 16/9;
