@@ -2,7 +2,7 @@
   <main>
     <section class="w-full lg:w-[740px] mx-auto py-12 md:py-20 lg:py-32 text-center">
       <div class="px-28">
-        <img class="rounded-full size-20 mb-4" src="/public/img/sebas.jpg" alt="SebbasDEV logo" />
+        <img class="rounded-full size-20 mb-4" src="/src/assets/img/sebas.jpg" alt="SebbasDEV logo" />
       </div>
       <h1 class="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex justify-center flex-row mb-4  text-black/80 dark:text-white/80 ">Hey, soy Sebastian</h1>
       <div class="flex justify-center items-center py-6 ">

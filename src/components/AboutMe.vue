@@ -29,7 +29,7 @@
       </p>
     </div>
 
-    <img src="/img/sebas.jpg" class="rounded-full size-64 order-1 md:order-2" />
+    <img src="/src/assets/img/sebas.jpg" class="rounded-full size-64 order-1 md:order-2" />
 
   </section>
 </template>
